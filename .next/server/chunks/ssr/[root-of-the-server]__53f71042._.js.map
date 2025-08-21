@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 13, "column": 0}, "map": {"version":3,"sources":["file:///home/adailson-cruz/Documentos/e-commerce/src/pages/index.tsx"],"sourcesContent":["import PageWrapper from \"@/components/PageWrapper\";\n\nexport default function Home(){\n  return(\n      <PageWrapper>\n\n      </PageWrapper>\n  )\n}"],"names":[],"mappings":";;;;AAAA;;;AAEe,SAAS;IACtB,qBACI,qKAAC,mIAAA,CAAA,UAAW;;;;;AAIlB","debugId":null}}]
+}
