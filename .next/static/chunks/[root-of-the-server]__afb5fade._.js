@@ -469,6 +469,183 @@ function triggerUpdate(msg) {
     }
 }
 }),
+"[project]/src/components/CustomButton/index.tsx [client] (ecmascript)": ((__turbopack_context__) => {
+"use strict";
+
+var { k: __turbopack_refresh__, m: module } = __turbopack_context__;
+{
+__turbopack_context__.s({
+    "default": ()=>CustomButton
+});
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/react/jsx-dev-runtime.js [client] (ecmascript)");
+;
+function CustomButton(param) {
+    let { variant = "primary", type = "button", className, children, width = "w-full" } = param;
+    function getStyles() {
+        switch(variant){
+            case "primary":
+                return "bg-gradient-to-r from-[#5593f7] to-[#1d47d7] \n                hover:shadow-xl hover:shadow-[#4896ff26] transition-all \n                duration-300 ease-in-out cursor-pointer text-[#1f1f1f]";
+            case "outline":
+                return "border border-[#2c313a]/50 rounded-xl\n                        bg-[#111418] h-[45px] text-[#F1F2F3] flex items-center\n                        justify-center gap-4 transition-all duration-300 \n                        ease-in-out cursor-pointer";
+            case "ghost":
+                return "bg-transparent text-[#F1F2F3] flex items-center\n                        justify-center";
+            default:
+                return "";
+        }
+    }
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+        type: type,
+        className: "".concat(width, "rounded-lg text-lg font-medium ").concat(getStyles(), " ").concat(className),
+        children: children
+    }, void 0, false, {
+        fileName: "[project]/src/components/CustomButton/index.tsx",
+        lineNumber: 37,
+        columnNumber: 9
+    }, this);
+}
+_c = CustomButton;
+var _c;
+__turbopack_context__.k.register(_c, "CustomButton");
+if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelpers !== null) {
+    __turbopack_context__.k.registerExports(module, globalThis.$RefreshHelpers$);
+}
+}}),
+"[project]/src/components/BannerSection/index.tsx [client] (ecmascript)": ((__turbopack_context__) => {
+"use strict";
+
+var { k: __turbopack_refresh__, m: module } = __turbopack_context__;
+{
+__turbopack_context__.s({
+    "default": ()=>BannerSection
+});
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/react/jsx-dev-runtime.js [client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$bs$2f$index$2e$mjs__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/react-icons/bs/index.mjs [client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$CustomButton$2f$index$2e$tsx__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/components/CustomButton/index.tsx [client] (ecmascript)");
+;
+;
+;
+function BannerSection() {
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
+        className: "rounded-2xl bg-gradient-to-r from-[#5593f7] to-[#5593f7]/50 p-12",
+        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+            className: "max-w-2xl",
+            children: [
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
+                    className: "text-3xl md:text-4xl font-bold text-white mb-4",
+                    children: "Ofertas Especiais"
+                }, void 0, false, {
+                    fileName: "[project]/src/components/BannerSection/index.tsx",
+                    lineNumber: 9,
+                    columnNumber: 17
+                }, this),
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                    className: "text-white/90 text-lg mb-6",
+                    children: "Descubra produtos incriveis com ate 70% de desconto. Promoções por tempo limitado!"
+                }, void 0, false, {
+                    fileName: "[project]/src/components/BannerSection/index.tsx",
+                    lineNumber: 12,
+                    columnNumber: 17
+                }, this),
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$CustomButton$2f$index$2e$tsx__$5b$client$5d$__$28$ecmascript$29$__["default"], {
+                    variant: "outline",
+                    width: "w-[200px]",
+                    children: [
+                        "Ver Ofertas",
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$bs$2f$index$2e$mjs__$5b$client$5d$__$28$ecmascript$29$__["BsArrowRight"], {}, void 0, false, {
+                            fileName: "[project]/src/components/BannerSection/index.tsx",
+                            lineNumber: 20,
+                            columnNumber: 21
+                        }, this)
+                    ]
+                }, void 0, true, {
+                    fileName: "[project]/src/components/BannerSection/index.tsx",
+                    lineNumber: 15,
+                    columnNumber: 17
+                }, this)
+            ]
+        }, void 0, true, {
+            fileName: "[project]/src/components/BannerSection/index.tsx",
+            lineNumber: 8,
+            columnNumber: 13
+        }, this)
+    }, void 0, false, {
+        fileName: "[project]/src/components/BannerSection/index.tsx",
+        lineNumber: 6,
+        columnNumber: 9
+    }, this);
+}
+_c = BannerSection;
+var _c;
+__turbopack_context__.k.register(_c, "BannerSection");
+if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelpers !== null) {
+    __turbopack_context__.k.registerExports(module, globalThis.$RefreshHelpers$);
+}
+}}),
+"[project]/src/interfaces/category.ts [client] (ecmascript)": ((__turbopack_context__) => {
+"use strict";
+
+var { k: __turbopack_refresh__, m: module } = __turbopack_context__;
+{
+__turbopack_context__.s({});
+;
+if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelpers !== null) {
+    __turbopack_context__.k.registerExports(module, globalThis.$RefreshHelpers$);
+}
+}}),
+"[project]/src/mocks/categories.ts [client] (ecmascript)": ((__turbopack_context__) => {
+"use strict";
+
+var { k: __turbopack_refresh__, m: module } = __turbopack_context__;
+{
+__turbopack_context__.s({
+    "categoriesMock": ()=>categoriesMock,
+    "default": ()=>__TURBOPACK__default__export__
+});
+const categoriesMock = [
+    {
+        id: 1,
+        name: "Smartphones",
+        count: 250
+    },
+    {
+        id: 2,
+        name: "Laptops",
+        count: 120
+    },
+    {
+        id: 3,
+        name: "fones",
+        count: 320
+    },
+    {
+        id: 4,
+        name: "Smartwhatch",
+        count: 120
+    },
+    {
+        id: 5,
+        name: "Câmeras",
+        count: 90
+    },
+    {
+        id: 6,
+        name: "Games",
+        count: 200
+    }
+];
+const __TURBOPACK__default__export__ = categoriesMock;
+if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelpers !== null) {
+    __turbopack_context__.k.registerExports(module, globalThis.$RefreshHelpers$);
+}
+}}),
+"[project]/src/components/CategorySection/index.tsx [client] (ecmascript)": ((__turbopack_context__) => {
+
+var { k: __turbopack_refresh__, m: module, e: exports } = __turbopack_context__;
+{
+const e = new Error("Could not parse module '[project]/src/components/CategorySection/index.tsx'\n\nExpression expected");
+e.code = 'MODULE_UNPARSABLE';
+throw e;
+}}),
 "[project]/src/components/CustomInput/index.tsx [client] (ecmascript)": ((__turbopack_context__) => {
 "use strict";
 
@@ -559,47 +736,6 @@ _s(CustomInput, "daguiRHWMFkqPgCh/ppD7CF5VuQ=");
 _c = CustomInput;
 var _c;
 __turbopack_context__.k.register(_c, "CustomInput");
-if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelpers !== null) {
-    __turbopack_context__.k.registerExports(module, globalThis.$RefreshHelpers$);
-}
-}}),
-"[project]/src/components/CustomButton/index.tsx [client] (ecmascript)": ((__turbopack_context__) => {
-"use strict";
-
-var { k: __turbopack_refresh__, m: module } = __turbopack_context__;
-{
-__turbopack_context__.s({
-    "default": ()=>CustomButton
-});
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/react/jsx-dev-runtime.js [client] (ecmascript)");
-;
-function CustomButton(param) {
-    let { variant = "primary", type = "button", className, children, width = "w-full" } = param;
-    function getStyles() {
-        switch(variant){
-            case "primary":
-                return "bg-gradient-to-r from-[#5593f7] to-[#1d47d7] \n                hover:shadow-xl hover:shadow-[#4896ff26] transition-all \n                duration-300 ease-in-out cursor-pointer text-[#1f1f1f]";
-            case "outline":
-                return "border border-[#2c313a]/50 rounded-xl\n                        bg-[#111418] h-[45px] text-[#F1F2F3] flex items-center\n                        justify-center gap-4 transition-all duration-300 \n                        ease-in-out cursor-pointer";
-            case "ghost":
-                return "bg-transparent text-[#F1F2F3] flex items-center\n                        justify-center";
-            default:
-                return "";
-        }
-    }
-    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-        type: type,
-        className: "".concat(width, "rounded-lg text-lg font-medium ").concat(getStyles(), " ").concat(className),
-        children: children
-    }, void 0, false, {
-        fileName: "[project]/src/components/CustomButton/index.tsx",
-        lineNumber: 37,
-        columnNumber: 9
-    }, this);
-}
-_c = CustomButton;
-var _c;
-__turbopack_context__.k.register(_c, "CustomButton");
 if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelpers !== null) {
     __turbopack_context__.k.registerExports(module, globalThis.$RefreshHelpers$);
 }
@@ -815,19 +951,30 @@ __turbopack_context__.s({
     "default": ()=>Home
 });
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/react/jsx-dev-runtime.js [client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$BannerSection$2f$index$2e$tsx__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/components/BannerSection/index.tsx [client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$CategorySection$2f$index$2e$tsx__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/components/CategorySection/index.tsx [client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$PageWrapper$2f$index$2e$tsx__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/components/PageWrapper/index.tsx [client] (ecmascript)");
+;
+;
 ;
 ;
 function Home() {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$PageWrapper$2f$index$2e$tsx__$5b$client$5d$__$28$ecmascript$29$__["default"], {
-        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(CategorySection, {}, void 0, false, {
-            fileName: "[project]/src/pages/index.tsx",
-            lineNumber: 7,
-            columnNumber: 11
-        }, this)
-    }, void 0, false, {
+        children: [
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$BannerSection$2f$index$2e$tsx__$5b$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
+                fileName: "[project]/src/pages/index.tsx",
+                lineNumber: 8,
+                columnNumber: 11
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$CategorySection$2f$index$2e$tsx__$5b$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
+                fileName: "[project]/src/pages/index.tsx",
+                lineNumber: 9,
+                columnNumber: 11
+            }, this)
+        ]
+    }, void 0, true, {
         fileName: "[project]/src/pages/index.tsx",
-        lineNumber: 6,
+        lineNumber: 7,
         columnNumber: 7
     }, this);
 }
@@ -868,4 +1015,4 @@ __turbopack_context__.r("[next]/entry/page-loader.ts { PAGE => \"[project]/src/p
 }}),
 }]);
 
-//# sourceMappingURL=%5Broot-of-the-server%5D__c37fe90d._.js.map
+//# sourceMappingURL=%5Broot-of-the-server%5D__afb5fade._.js.map

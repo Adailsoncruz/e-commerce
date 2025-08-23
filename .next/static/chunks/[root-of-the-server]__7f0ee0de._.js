@@ -469,6 +469,14 @@ function triggerUpdate(msg) {
     }
 }
 }),
+"[project]/src/components/BannerSection/index.tsx [client] (ecmascript)": ((__turbopack_context__) => {
+
+var { k: __turbopack_refresh__, m: module, e: exports } = __turbopack_context__;
+{
+const e = new Error("Could not parse module '[project]/src/components/BannerSection/index.tsx'\n\nUnterminated regexp literal");
+e.code = 'MODULE_UNPARSABLE';
+throw e;
+}}),
 "[project]/src/components/CustomInput/index.tsx [client] (ecmascript)": ((__turbopack_context__) => {
 "use strict";
 
@@ -628,7 +636,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$ico
 ;
 function Header() {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("header", {
-        className: "sticky top-0 z-50 bg-[#111418]/95 backdrop-blur-sm w-full border-b border-[#2e3237]",
+        className: "sticky top-0 z-50 bg-[#111418]/95 backdrop-blur-sm w-full border-b border-[#2e3237] ",
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
             className: "w-full flex h-16 items-center justify-between",
             children: [
@@ -815,15 +823,17 @@ __turbopack_context__.s({
     "default": ()=>Home
 });
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/react/jsx-dev-runtime.js [client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$BannerSection$2f$index$2e$tsx__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/components/BannerSection/index.tsx [client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$PageWrapper$2f$index$2e$tsx__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/components/PageWrapper/index.tsx [client] (ecmascript)");
+;
 ;
 ;
 function Home() {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$PageWrapper$2f$index$2e$tsx__$5b$client$5d$__$28$ecmascript$29$__["default"], {
-        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(CategorySection, {}, void 0, false, {
+        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$BannerSection$2f$index$2e$tsx__$5b$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
             fileName: "[project]/src/pages/index.tsx",
             lineNumber: 7,
-            columnNumber: 11
+            columnNumber: 9
         }, this)
     }, void 0, false, {
         fileName: "[project]/src/pages/index.tsx",
@@ -868,4 +878,4 @@ __turbopack_context__.r("[next]/entry/page-loader.ts { PAGE => \"[project]/src/p
 }}),
 }]);
 
-//# sourceMappingURL=%5Broot-of-the-server%5D__c37fe90d._.js.map
+//# sourceMappingURL=%5Broot-of-the-server%5D__7f0ee0de._.js.map
